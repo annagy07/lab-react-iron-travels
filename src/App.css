@@ -35,4 +35,56 @@
 
 .text-iron {
   color: #0a035a;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travelCard {
+  border: 1px solid grey;
+  box-shadow: 0px 2px 3px grey;
+  width: 650px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.travelCard h4 {
+  margin-top: 0;
+}
+
+.travelCard p {
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.travelInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-container img {
+  float: left;
+  width: 280px;
+  height: 230px;
+  object-fit: cover;
+  padding: 20px 10px;
 }
