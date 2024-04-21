@@ -47,13 +47,14 @@
 .travelCard {
   border: 1px solid grey;
   box-shadow: 0px 2px 3px grey;
-  width: 650px;
+  width: 600px;
   margin-bottom: 40px;
   padding: 10px;
   border-radius: 4px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  text-align: left;
 }
 
 .travelCard h4 {
@@ -74,6 +75,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px 10px;
+  height: 230px;
 }
 
 .grid-container {
@@ -87,4 +89,41 @@
   height: 230px;
   object-fit: cover;
   padding: 20px 10px;
+}
+
+.great-deal {
+  border: black solid 1px;
+  background-color: rgb(134, 199, 134);
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.premium {
+  border: black solid 1px;
+  background-color: rgb(255, 241, 159);
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.allIncl {
+  border: black solid 1px;
+  background-color: rgb(231, 159, 255);
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.btn-delete {
+  border: rgb(121, 121, 121) solid 1px;
+  background-color: rgb(209, 207, 207);
+  color: rgb(65, 65, 65);
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-top: auto;
+  font-size: small;
 }
